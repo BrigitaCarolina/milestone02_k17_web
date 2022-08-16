@@ -10,10 +10,10 @@ interface LayoutProps {
 export default function Layout(props: LayoutProps) {
   const { children } = props;
   return (
-    <div className="justify-center">
+    <div className="justify-center relative min-h-screen">
       <Header />
       <div className={styles.content}>{children}</div>
       <Footer />
     </div>
-  );
+  )
 }
