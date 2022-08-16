@@ -1,6 +1,8 @@
+import { Img } from "@chakra-ui/react";
 import Head from "next/Head";
 import Header from "../components/Header";
 import Layout from "../components/Layout";
+import creators from "../public/json/creators.json";
 
 export default function about() {
   return (
@@ -23,6 +25,19 @@ export default function about() {
               <div className="check-container min-h-1"></div>
             </div>
             <h1 className="text-3xl font-bold underline flex justify-center mt-7">Creators</h1>
+            <div className="flex flex-wrap justify-center gap-4">
+              {creators.map((creator :any) => {
+                return (
+                  <>
+                    <div className="flex flex-col bg-gradient-to-b p-8 from-white to-yellow-100 items-center rounded-3xl my-4 border-black border-2 w-[60vw] md:w-[25vw] text-center items-center text-xl md:text-2xl">
+                      <img src={creator.Foto} alt={creator.Nama} className="mb-5"/>
+                      <p>{creator.Nama}</p>
+                      <p>{creator.NIM}</p>
+                    </div>
+                  </>
+                )
+              })}
+            </div>
           </div>
         </div>
       </Layout>

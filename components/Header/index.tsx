@@ -14,8 +14,8 @@ export default function Header() {
             </Link>
           </li>
           <li className={styles.item}>
-            <Link href="/help">
-              <a className="text-xl hover:underline">Help</a>
+            <Link href="/chatbot">
+              <a className="text-xl hover:underline">Chatbot</a>
             </Link>
           </li>
           <li className={styles.item}>
