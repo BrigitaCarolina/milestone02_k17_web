@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       fontFamily: {
         raya: "raya, sans-serif",
+        inter: ["inter", "sans-serif"],
       },
     },
   },

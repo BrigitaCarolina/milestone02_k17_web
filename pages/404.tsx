@@ -9,7 +9,7 @@ export default function Custom404() {
     }, 2000);
   }, []);
   return (
-    <div>
+    <div className="bg-black flex">
       <h1 className="title-not-found">Kamu tersesat kawanku</h1>
       <h1 className="title-not-found">Halaman yang kamu cari tidak ada</h1>
     </div>
