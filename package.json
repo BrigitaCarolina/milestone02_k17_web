@@ -2,6 +2,9 @@
   "name": "vino-learn-nextjs",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "16.4.2"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -19,8 +22,7 @@
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.3.0",
     "react-scroll": "^1.8.7",
-    "styled-component": "^2.8.0",
-    "node": "^18.7.0"
+    "styled-component": "^2.8.0"
   },
   "devDependencies": {
     "@types/node": "18.7.3",
