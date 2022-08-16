@@ -7,7 +7,7 @@ import Layout from "../components/Layout";
 export default function Home() {
   const [query, setQuery] = useState("");
   const API_KEY = "AIzaSyCsET4iZRhfUz0qHOT7WprfsOWTSRDEEyA"
-  const [obj, setObj] = useState({})
+  const [obj, setObj] = useState({claims:[]})
   async function check() {
     console.log("hello")
     setQuery(encodeURIComponent(query));
