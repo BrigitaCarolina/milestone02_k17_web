@@ -20,9 +20,6 @@ export default function help() {
                 Setelah itu, user dapat menggunakan salah satu dari ketiga command berikut: /check, /help, dan /about.
                 Untuk menggunakan Chatbot ini, kamu bisa mengirimkan salah satu dari ketiga command berikut: 
               </p>
-              <ul>
-                
-              </ul>
               <div className="check-container min-h-1"></div>
             </div>
           </div>
