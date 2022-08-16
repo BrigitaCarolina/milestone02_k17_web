@@ -5,7 +5,7 @@ import Image from "next/image";
 export default function Header() {
   return (
     <header className={styles.container}>
-      <Image src="/16521326.png" width={30} height={30} alt="profile" />
+      <Image src="/logo-SAH.jpg" width={30} height={30} alt="profile" />
       <div className="align-middle ">
         <ul className={styles.list}>
           <li className={styles.item}>
