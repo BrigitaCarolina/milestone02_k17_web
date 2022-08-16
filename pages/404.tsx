@@ -6,7 +6,7 @@ export default function Custom404() {
   useEffect(() => {
     setTimeout(() => {
       router.push("/");
-    }, 2000);
+    }, 4000);
   }, []);
   return (
     <div className="bg-black flex">
