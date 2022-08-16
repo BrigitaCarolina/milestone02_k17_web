@@ -22,6 +22,7 @@ export default function about() {
               </p>        
               <div className="check-container min-h-1"></div>
             </div>
+            <h1 className="text-3xl font-bold underline flex justify-center mt-7">Creators</h1>
           </div>
         </div>
       </Layout>
