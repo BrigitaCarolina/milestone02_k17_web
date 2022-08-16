@@ -29,7 +29,7 @@ export default function Home() {
         <div className="flex bg-gradient-to-b from-orange-400 to-yellow-300 min-h-screen p-10 items-center">
           <div className="container max-w-4xl m-auto items-center">
             <a href="/" className="hover:text-sky-900">
-              <h1 className="text-4xl font-bold underline flex justify-center mb-4">Anti Hoax Checker</h1>
+              <h1 className="text-4xl font-bold underline flex justify-center mb-4">Sudo Anti Hoax</h1>
             </a>
             <div className="mb-4 items-center rounded-lg">
               <div className="mx-2 md:mx-6 gap-8">
