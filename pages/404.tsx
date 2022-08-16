@@ -6,10 +6,10 @@ export default function Custom404() {
   useEffect(() => {
     setTimeout(() => {
       router.push("/");
-    }, 4000);
+    }, 2000);
   }, []);
   return (
-    <div className="bg-black flex">
+    <div className="bg-black">
       <h1 className="title-not-found">Kamu tersesat kawanku</h1>
       <h1 className="title-not-found">Halaman yang kamu cari tidak ada</h1>
     </div>

@@ -1,13 +1,7 @@
 import Head from "next/head";
-import Image from "next/image";
-import styles from "../styles/Home.module.css";
 import React from "react";
 import { useState } from "react";
-import Link from "next/link";
-import Header from "../components/Header";
-import Footer from "../components/Footer/Footer";
 import Layout from "../components/Layout";
-import Navbar from "../components/Navbar/Navbar";
 
 
 export default function Home() {

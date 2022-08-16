@@ -1,6 +1,4 @@
-import { Img } from "@chakra-ui/react";
-import Head from "next/Head";
-import Header from "../components/Header";
+import Head from "next/head";
 import Layout from "../components/Layout";
 import creators from "../public/json/creators.json";
 
