@@ -1,7 +1,7 @@
 # Solusi : SAH (Sudo Anti Hoax)
 
 <p align="center">
-<img src="public/logo_SAH.jpg" width="50%" height="50%" title="Logo SAH (Sudo Anti Hoax)">
+<img src="public/logo-SAH.jpg" width="50%" height="50%" title="Logo SAH (Sudo Anti Hoax)">
 </p>
 
 Sudo Anti Hoax adalah suatu linebot, yang mengaplikasikan fungsi Hoax Filter, berfungsi untuk mengatasi permasalahan misinformasi atau hoax. Hoax Filter di sini berperan sebagai sebuah tool yang nantinya menerima input klaim dari penggunanya dan mengembalikan rating/nilai kebenaran dari klaim tersebut berdasarkan sumber-sumber yang valid. Sudo Anti Hoax menerapkan Hoax Filter Bot sebagai tool chatbot yang menggunakan platform LINE, berupa LINE Official Account yang dapat ditambahkan oleh pengguna LINE.
