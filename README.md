@@ -21,6 +21,7 @@ Berikut merupakan kelompok para kontributor dalam Website ini: <br/>
 | 16521235 | [Attariq Muhammad A.](https://github.com/attariqazhar) | Frontend |
 | 16521326 | [Silvester Kresna W.P.P](https://github.com/silvester-kw) | Frontend |
 | 16521318 | [Shidqi Indy Izhari](https://github.com/shidqizh) | Backend |
+| 16521514 | [Christophorus D.W.](https://github.com/christodharma) | Frontend |
 
 ## III. Petunjuk Penggunaan SAH
 Website dapat diakses pada alamat sudoantihoax.herokuapp.com . 
