@@ -9,12 +9,12 @@ export default function about() {
         <title>SAH | About</title>
       </Head>
       <Layout>
-        <div className="bg-gradient-to-b from-orange-400 to-yellow-300 min-h-screen px-10">
+        <div className="bg-gradient-to-b bg-gradient-to-b from-[#2F1C53] via-[#A46DFF] to-[#f5d1fd] min-h-screen px-10">
           <div className="container max-w-4xl m-auto py-10">
-            <h1 className="text-3xl font-bold underline flex justify-center mb-4">About</h1>
-            <div className="bg-gradient-to-b from-white to-yellow-100 min-h-100 flex flex-col text-justify justify-center rounded-3xl p-12 gap-6">
-              <h1 className="font-raya text-4xl text-center"> SAH (Sudo Anti Hoax) </h1>
-              <p className="font-thin font-inter text-lg md:text-2xl">
+            <h1 className="text-3xl font-bold flex justify-center mb-4 font-roboto font-bold text-white drop-shadow-xl">ABOUT</h1>
+            <div className="flex flex-col bg-white/[.6] backdrop-filter w-full backdrop-blur-lg items-center rounded-3xl my-4 p-8 md:p-12 shadow-xl gap-6">
+              <h1 className="font-roboto font-bold text-4xl text-center"> SAH (Sudo Anti Hoax) </h1>
+              <p className="font-thin font-inter text-lg md:text-xl text-justify">
               Sudo Anti Hoax adalah suatu linebot, yang mengaplikasikan fungsi Hoax Filter, 
               berfungsi untuk mengatasi permasalahan misinformasi atau hoax. 
               Hoax Filter di sini berperan sebagai sebuah tool yang nantinya menerima input klaim dari penggunanya 
@@ -22,14 +22,14 @@ export default function about() {
               </p>        
               <div className="check-container min-h-1"></div>
             </div>
-            <h1 className="text-3xl font-bold underline flex justify-center mt-7">Creators</h1>
-            <div className="flex flex-wrap justify-center gap-4">
+            <h1 className="text-3xl font-bold flex justify-center mt-7 font-roboto font-bold text-white drop-shadow-xl">CREATORS</h1>
+            <div className="flex flex-wrap justify-center gap-6">
               {creators.map((creator :any) => {
                 return (
                   <>
-                    <div className="flex flex-col bg-gradient-to-b p-8 from-white to-yellow-100 items-center rounded-3xl my-4 border-black border-2 w-[60vw] md:w-[25vw] text-center items-center text-xl md:text-2xl">
-                      <img src={creator.Foto} alt={creator.Nama} className="mb-5"/>
-                      <p>{creator.Nama}</p>
+                    <div className="flex flex-col bg-white/[.6] backdrop-filter w-full backdrop-blur-lg items-center rounded-3xl my-4 p-12 shadow-xl text-black min-w-[300px] w-[20vw] text-center font-roboto text-lg md:text-xl ">
+                      <img src={creator.Foto} alt={creator.Nama} className="shadow-xl border-white border-2 mb-5"/>
+                      <p className="font-bold">{creator.Nama}</p>
                       <p>{creator.NIM}</p>
                     </div>
                   </>

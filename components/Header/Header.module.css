@@ -4,8 +4,10 @@
   color: black;
   justify-content: space-between;
   display: flex;
-  align: start;
+  align: center;
+  align-items: center;
   justify-align: center;
+  background-color: #f5d1fd;
 }
 
 .list {

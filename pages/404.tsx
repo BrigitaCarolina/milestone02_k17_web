@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import { useRouter } from "next/router";
+import Layout from "../components/Layout";
 
 export default function Custom404() {
   const router = useRouter();
@@ -9,9 +10,10 @@ export default function Custom404() {
     }, 2000);
   }, []);
   return (
-    <div className="bg-black">
-      <h1 className="title-not-found">Kamu tersesat kawanku</h1>
-      <h1 className="title-not-found">Halaman yang kamu cari tidak ada</h1>
-    </div>
+    <Layout>
+      <div className="bg-gradient-to-b bg-gradient-to-b from-[#2F1C53] via-[#A46DFF] to-[#f5d1fd] h-screen w-full flex items-center justify-center px-10 text-2xl md:text-5xl font-roboto text-white font-bold text-center">
+          <p> LAMAN YANG ANDA CARI TIDAK DITEMUKAN.</p>
+      </div>
+    </Layout>
   );
 }

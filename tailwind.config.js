@@ -6,6 +6,8 @@ module.exports = {
       fontFamily: {
         raya: "raya, sans-serif",
         inter: ["inter", "sans-serif"],
+        raleway: ["Raleway", "sans-serif"],
+        roboto: ["Roboto", "sans-serif"],
       },
     },
   },
