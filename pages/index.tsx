@@ -24,7 +24,7 @@ export default function Home() {
     <>
       <Head>
         <title>SAH | Homepage</title>
-        <link rel="icon" type="image/x-icon" href="/images/favicon.ico"></link>
+        <link rel="icon" type="image/x-icon" href="/favicon.ico"></link>
       </Head>
       <Layout>
         <div className="flex bg-gradient-to-b from-[#2F1C53] via-[#A46DFF] to-[#f5d1fd] min-h-screen p-4 md:p-10 items-center">
