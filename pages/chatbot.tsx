@@ -8,7 +8,7 @@ export default function help() {
     <>
       <Head>
         <title>SAH | Help</title>
-        <link rel="icon" type="image/x-icon" href="/favicon.ico"></link>
+        <link rel="icon" type="image/x-icon" href="/images/favicon.ico"></link>
       </Head>
       <Layout>
         <div className="bg-gradient-to-b bg-gradient-to-b from-[#2F1C53] via-[#A46DFF] to-[#f5d1fd] min-h-screen px-4 md:px-10">
